@@ -9,7 +9,7 @@ export default function App() {
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const apiKey = '9a2c3877e06abc14fbad7430c4f9a972'; 
+  const apiKey = 'Inserir API-Key do open Weather aqui'; 
 
   useEffect(() => {
     (async () => {
